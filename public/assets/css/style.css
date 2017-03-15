@@ -1,0 +1,100 @@
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-primary-edit {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary-edit:hover,
+.btn-primary-edit:focus,
+.btn-primary-edit:active,
+.btn-primary-edit.active,
+.open .dropdown-toggle.btn-primary-edit {
+  color: #000;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.btn-primary-edit:active,
+.btn-primary-edit.active,
+.open .dropdown-toggle.btn-primary-edit {
+  background-image: none;
+}
+.btn-primary-edit.disabled,
+.btn-primary-edit[disabled],
+fieldset[disabled] .btn-primary-edit,
+.btn-primary-edit.disabled:hover,
+.btn-primary-edit[disabled]:hover,
+fieldset[disabled] .btn-primary-edit:hover,
+.btn-primary-edit.disabled:focus,
+.btn-primary-edit[disabled]:focus,
+fieldset[disabled] .btn-primary-edit:focus,
+.btn-primary-edit.disabled:active,
+.btn-primary-edit[disabled]:active,
+fieldset[disabled] .btn-primary-edit:active,
+.btn-primary-edit.disabled.active,
+.btn-primary-edit[disabled].active,
+fieldset[disabled] .btn-primary-edit.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary-edit .badge {
+  color: #fff;
+  background-color: #fff;
+}
+/*start style table*/
+.t-list th{
+  cursor:pointer;
+  padding : 10px;
+  font-size: 14px;
+  font-weight:thin;
+  background-color:#4fc1e9;
+  color:#ffffff;
+  text-align:center;
+}
+.t-list td{
+  padding : 12px;
+  font-size: 13px;
+  font-weight:thin;
+  background:#fff;
+  border-collapse: collapse;
+  border: solid 1px #f0f2f5;
+  color:#989fa9;
+}
+/*end style table*/
